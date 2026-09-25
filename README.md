@@ -52,11 +52,13 @@ the value estimate that come from real terminal results.
 
 Measured with `benchmark.py`, seats alternating every game, seed 1.
 These come from a single run on one machine; `sims/second` is hardware
-dependent, so re-run rather than quoting these numbers.
+dependent, so re-run rather than quoting these numbers. Measured with `benchmark.py`, seats alternating every game, seed 1.
+Single run on a Lenovo laptop, Python 3.12 on Windows; `sims/second` is
+hardware dependent, so re-run rather than quoting this number.
 
 | Opponent | Budget | Games | Win | Loss | Draw | sims/s |
 |---|---|---|---|---|---|---|
-| Uniform random | 0.2 s/action | 30 | 100.0% | 0.0% | 0.0% | ~10,000 |
+| Uniform random | 0.2 s/action | 30 | 100.0% | 0.0% | 0.0% | ~9,500 |
 | MCTS @ 0.02 s/action | 0.2 s/action | 20 | 90.0% | 10.0% | 0.0% | ~9,400 |
 
 Reproduce:
